@@ -1,9 +1,6 @@
 ﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Runtime.CompilerServices;
+//using System.Diagnostics;
 //using System.Text;
-//using System.Threading.Tasks;
 
 //namespace Lesson_1
 //{
@@ -11,48 +8,68 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            Line();
+//            //Line();
 
-//            string str = "......gggg  uuuu   rrr  .hhh eee. lllll....";
-//            String str1 = new string(str.ToCharArray());
-//            string str2 = str1;
+//            //string str = "......gggg  uuuu   rrr  .hhh eee. lllll....";
+//            //String str1 = new string(str.ToCharArray());
+//            //string str2 = str1;
 
-//            // ==
-//            if(str1 == str2)// if (str1.Equals(str2)))
-//            {
-//                Console.WriteLine("equel");
-//            }
-
-//            //for (int i = 0; i < 5; i++)
+//            //// ==
+//            //if (str1 == str2)// if (str1.Equals(str2)))
 //            //{
-//            //    var strNew = Console.ReadLine();
-//            //    str1 += strNew;//   new memmory allocated
-//            //    Console.WriteLine(str1);
+//            //    Console.WriteLine("equel");
 //            //}
 
-//            str1 = "new text";
+//            ////for (int i = 0; i < 5; i++)
+//            ////{
+//            ////    var strNew = Console.ReadLine();
+//            ////    str1 += strNew;//   new memmory allocated
+//            ////    Console.WriteLine(str1);
+//            ////}
 
-//            // StringBuilder !!!!
+//            //str1 = "new text";
 
-//            str = str.Insert(3, "0000");
-//            Console.WriteLine(str);
-//            str = str.Remove(3, 4);
-//            Console.WriteLine(str);
+//            //// StringBuilder !!!!
 
-//            str = str.Replace(' ', '.');
-//            Console.WriteLine(str);
-//            str = str.Trim('.');//   видалити всі входження симовлу
-//            Console.WriteLine(str);
-//            str = str.Insert(2, "/");
-//            str = str.Insert(7, "/");
-//            Console.WriteLine(str);
-//            string[] arrStr = str.Split('/');
+//            //str = str.Insert(3, "0000");
+//            //Console.WriteLine(str);
+//            //str = str.Remove(3, 4);
+//            //Console.WriteLine(str);
 
-//            for (int i = 0; i < arrStr.Length; i++)
+//            //str = str.Replace(' ', '.');
+//            //Console.WriteLine(str);
+//            //str = str.Trim('.');//   видалити всі входження симовлу
+//            //Console.WriteLine(str);
+//            //str = str.Insert(2, "/");
+//            //str = str.Insert(7, "/");
+//            //Console.WriteLine(str);
+//            //string[] arrStr = str.Split('/');
+
+//            //for (int i = 0; i < arrStr.Length; i++)
+//            //{
+//            //    Console.WriteLine(arrStr[i]);
+
+//            //}
+
+//            Stopwatch stopWatch = new Stopwatch();
+//            stopWatch.Start();
+
+//            StringBuilder str = new StringBuilder("hello", 10);
+//            for (int i = 0; i < 100; i++)
 //            {
-//            Console.WriteLine(arrStr[i]);
-
+//                str.Append(".");                
 //            }
+//            Console.WriteLine(str);
+
+//            //string str = "hello";
+//            //for (int i = 0; i < 10000; i++)
+//            //{
+//            //    str += ".";
+//            //}
+
+//            stopWatch.Stop();
+//            Console.WriteLine(stopWatch.ElapsedMilliseconds);
+            
 //        }
 
 
