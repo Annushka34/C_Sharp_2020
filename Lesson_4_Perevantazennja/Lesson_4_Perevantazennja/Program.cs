@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using Calculator;
 
@@ -10,6 +11,13 @@ namespace Lesson_4_Perevantazennja
         {
             Multiply calculator = new Multiply();
             calculator.Mult(10, 3);
+
+            List<Point> list = new List<Point>();
+            Point p = new Point();
+            list.Add(p);
+            list.Remove(p);
+
+            Point finded = list.Find(obj => obj.name == "Vasilij" && obj.y == 7 && obj.x ==  2);
 
             //Point p1 = new Point(1, 7, "point 1");
             //Point p2 = new Point(3, 7, "point 2");
