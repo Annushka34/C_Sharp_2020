@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using Calculator;
 
 namespace Lesson_4_Perevantazennja
 {
@@ -7,6 +8,9 @@ namespace Lesson_4_Perevantazennja
     {
         static void Main(string[] args)
         {
+            Multiply calculator = new Multiply();
+            calculator.Mult(10, 3);
+
             //Point p1 = new Point(1, 7, "point 1");
             //Point p2 = new Point(3, 7, "point 2");
 
