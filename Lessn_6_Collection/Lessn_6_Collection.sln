@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArayList", "Lessn_6_Collection\ArayList.csproj", "{6BAC6432-C01A-425D-A824-CF6420727205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashtable", "Hashtable\Hashtable.csproj", "{DA92CDD1-053D-41A8-8DF5-232A3EA11490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BAC6432-C01A-425D-A824-CF6420727205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAC6432-C01A-425D-A824-CF6420727205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAC6432-C01A-425D-A824-CF6420727205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAC6432-C01A-425D-A824-CF6420727205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA92CDD1-053D-41A8-8DF5-232A3EA11490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA92CDD1-053D-41A8-8DF5-232A3EA11490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA92CDD1-053D-41A8-8DF5-232A3EA11490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA92CDD1-053D-41A8-8DF5-232A3EA11490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD308DD6-CD1C-433B-9F3C-E4D906E2949C}
+	EndGlobalSection
+EndGlobal
